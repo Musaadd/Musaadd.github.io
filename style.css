@@ -1,12 +1,4 @@
-#me{
-    
-        width: 300px;  /* Fixed width */
-        height: 300px; /* Fixed height */
-        object-fit: cover; /* Ensures the image covers the container without distortion */
-    
-    
-    
-}
+
 
 #cv{
     width: 100%;
@@ -23,21 +15,29 @@
 }
 
 a{
-    color: white;
+    color: black;
     text-decoration: none;
     
 }
 
 a:hover{
-    color: whitesmoke;
+    color:blue;
     opacity: 0.7;
+}
+img{
+
+    width: 200px;  /* Fixed width */
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    
+   
 }
 
 .con1{
-    color: white;
-    background-color: black;
     display: flex;
-    justify-content: center;
-    gap: 30px;
+    background-color: black;
+    color: white;
     align-items: center;
+    gap: 20px;
+
 }
