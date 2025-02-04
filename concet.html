@@ -12,23 +12,29 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="cv.html">My CV</a></li>
         </ul>
     </nav>
 
-    <h1 class="name">Musad Alquwayi </h1>
-    <div class="contact-info">
+    <header class="contact-header">
+        <h1 class="name">Musad Alquwayi</h1>
+    </header>
     
-        <div class="contact-item">
-            <img class="contact-icon" src="email.svg" alt="Email Icon">
-            <a href="m.alquwayii@gmail.com">m.alquwayii@gmail.com</a>
-        </div>
+    <section class="contact-form-container">
+        <form action="mailto:m.alquwayii@gmail.com" method="post" enctype="text/plain">
+            <label for="name" class = "con1">Name:
+            <input type="text" id="name" name="name" required></label>
 
-  
-        <div class="contact-item">
-            <img class="contact-icon" src="phone.svg" alt="Phone Icon">
-            <a href="+966544621671">(+966) 544621671</a>
-        </div>
-    </div>
+            <label for="email" class ="con2">Email:
+            <input type="email" id="email" name="email" required></label>
+
+            <label for="message" class="con3">Message:
+            <textarea id="message" name="message" rows="5" required></textarea></label>
+            <label class="con4">  
+            <button type="submit" >Send Message</button></label>  
+        </form>
+        <p>If the form doesn't work, you can also email me directly at <a href="mailto:m.alquwayii@gmail.com">m.alquwayii@gmail.com</a>.</p>
+    </section>
 
 </body>
 </html>
