@@ -1,0 +1,74 @@
+img{
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+}
+
+.con1{
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    gap: 20px;
+
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: gray;
+    opacity: 0.9;
+}
+a:visited{
+    color: blue;
+    opacity: 0.5;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding: 10px;
+    border-bottom:black solid ;
+    
+}
+h1{
+    padding-top:10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#objective{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border-bottom:black solid ;
+}
+#education{
+    
+    justify-content: center;
+    align-items: center;
+    border-bottom:black solid ;
+}
+#skills{
+    
+    justify-content: center;
+    align-items: center;
+    border-bottom:black solid ;
+}
+#courses{
+    
+    justify-content: center;
+    align-items: center;
+    border-bottom:black solid ;
+}
+#projects{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border-bottom:black solid ;
+}
