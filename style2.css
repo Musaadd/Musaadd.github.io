@@ -34,7 +34,7 @@ body {
 .navbar a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.5em;
     padding: 5px 10px;
 }
 
@@ -42,7 +42,8 @@ body {
 
 
 .name {
-    font-size: 36px;
+    text-shadow: 1px 1px 1px black;
+    font-size: 3rem;
     font-weight: bold;
     color: #333;
     margin-top: 20px; 
@@ -79,6 +80,7 @@ a {
     display: flex;
 
 }
+
 .con2{
     padding-top:10px ;
     display: flex;
