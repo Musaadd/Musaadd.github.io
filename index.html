@@ -12,6 +12,7 @@
         <div class = "con1">
         <img src="Pic of me.PNG" alt="Musaad Picture">
         <h1>Musad Alquwayi</h1>
+        <p id="greeting"></p>
     </div>
         <h2>Welcome to my personal page</h2>
         <p>This is my personal page where you can found any thing about my information,
@@ -45,6 +46,25 @@
  
     
    <br><br><br><br><br> <footer>&copy; All right reserved to Musaad Alquwayi</footer>
+
+   <script>
+    window.addEventListener("DOMContentLoaded", function () {
+      const greetingElement = document.getElementById("greeting");
+      const hour = new Date().getHours();
+      let greeting = "";
+  
+      if (hour < 12) {
+        greeting = "Good morning!";
+      } else if (hour < 18) {
+        greeting = "Good afternoon!";
+      } else {
+        greeting = "Good evening!";
+      }
+  
+      greetingElement.textContent = greeting;
+    });
+  </script>
+  
 
 
 </body>
