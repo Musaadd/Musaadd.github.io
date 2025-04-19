@@ -49,5 +49,31 @@
             
         
         </div>
+        <div class="project-button-container">
+            <button id="showMoreBtn">Show More Projects</button>
+        </div>
+        
+        <div id="moreProjectsContainer"></div> <!-- New projects go here -->
+        <script>
+            document.getElementById("showMoreBtn").addEventListener("click", function () {
+                const container = document.getElementById("moreProjectsContainer");
+            
+                const newProject = document.createElement("div");
+                newProject.classList.add("project");
+            
+                // You can customize this content
+                newProject.innerHTML = `
+                    <h3>Sentiment analysis</h3>
+                    <img src="sentiment_analysis.png" alt="Personal project" style="max-width: 100%; height: auto;">
+                    <p>This project helps users to know about some prodect is good or not based on comments of this product.</p>
+                `;
+            
+                container.appendChild(newProject);
+            
+                // Optionally disable the button after one click:
+                // this.disabled = true;
+            });
+            </script>
+                    
 </body>
 </html>
