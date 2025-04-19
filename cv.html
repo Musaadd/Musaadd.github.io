@@ -40,6 +40,7 @@
             </ul>
         </section>
 
+        <button id="toggleSkillsBtn">Toggle Skills</button>
         <section id="skills">
             <h2>Skills</h2>
             <ul>
@@ -81,6 +82,19 @@
     <blockquote>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.</blockquote>
 
 
+    <script>
+        document.getElementById("toggleSkillsBtn").addEventListener("click", function () {
+            const skillsSection = document.getElementById("skills");
+        
+            // Toggle display
+            if (skillsSection.style.display === "none") {
+                skillsSection.style.display = "block";
+            } else {
+                skillsSection.style.display = "none";
+            }
+        });
+        </script>
+        
     
 </body>
 </html>
