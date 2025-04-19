@@ -40,6 +40,9 @@ body {
 
 
 
+.error {
+     color: red; font-size: 0.9em; 
+    }
 
 .name {
     text-shadow: 1px 1px 1px black;
