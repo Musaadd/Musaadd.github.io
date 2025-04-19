@@ -73,3 +73,17 @@ h1{
     align-items: center;
     border-bottom:black solid ;
 }
+
+#toggleSkillsBtn {
+    margin: 10px 0;
+    padding: 8px 15px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#toggleSkillsBtn:hover {
+    background-color: #005f99;
+}
